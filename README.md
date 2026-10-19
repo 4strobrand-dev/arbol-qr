@@ -18,9 +18,20 @@ Cada módulo oscuro del QR que cae dentro de la copa es una columna de hojas que
 
 Hecho con [three.js](https://threejs.org/), [qrcode-generator](https://github.com/kazuhikoarase/qrcode-generator) y [gifenc](https://github.com/mattdesl/gifenc).
 
+## Haz el tuyo con Claude: la skill `qr-voxel`
+
+La carpeta [`skill/qr-voxel`](skill/qr-voxel) es una skill para Claude que le enseña el truco completo, no solo este árbol: cómo convertir cualquier escena voxel en un QR escaneable. Trae la plantilla del Árbol QR, recetas de otros temas (ciudad, jardín de flores, arrecife de coral) y un script que comprueba que cada variante se lee.
+
+**Instalarla en Claude:**
+
+1. Descarga [`qr-voxel.zip`](skill/qr-voxel.zip).
+2. En Claude, ve a **Customize → Skills**, toca **+ → Create skill → Upload a skill** y sube el ZIP. Necesitas tener activada la ejecución de código en **Settings → Capabilities**.
+3. Pídele algo como: *"Haz un QR voxel que sea una ciudad, con variantes de día, atardecer y noche, para https://tu-enlace.com"*.
+
 ## Descargas
 
 - [`index.html`](index.html): la herramienta completa en un solo archivo. Descárgala desde el enlace al pie de la página o desde aquí, y ábrela en cualquier navegador.
+- [`skill/qr-voxel.zip`](skill/qr-voxel.zip): la skill para Claude, lista para subir.
 
 ---
 
